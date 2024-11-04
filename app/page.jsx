@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="container mx-auto p-6">
       <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-4 shadow-md p-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg">
-        Menampilkan 10 Foto Kucing</h2>
+        Menampilkan Foto Kucing</h2>
       <h3 className="text-3xl font-semibold text-center text-gray-900 mt-8 mb-4 underline"> Cute Cats</h3>
 
       {/* Container untuk memusatkan tombol */}
