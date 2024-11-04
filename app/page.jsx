@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 async function fetchCats() {
-  const response = await fetch("https://api.thecatapi.com/v1/images/search?limit=10", { cache: 'force-cache' });
+  const response = await fetch("https://api.thecatapi.com/v1/images/search?limit=10", { cache: 'no-store' });
   return response.json();
 }
 
